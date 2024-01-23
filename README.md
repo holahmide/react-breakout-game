@@ -5,7 +5,7 @@
 ## To use
 
 ```bash
-git clone ... breakout-game
+git clone https://github.com/holahmide/react-breakout-game.git breakout-game
 cd breakout-game
 yarn
 yarn dev
@@ -15,5 +15,5 @@ yarn dev
 
 <ol>
   <li>Currently the player/paddle can only be moved with the arrow keys, change to <b>mouseover</b> event.</li>
-  <li>Make it multi-level by increasing the number of blocks rows after the user has cleared all blocks.</li>
+  <li>Make it multi-level by increasing the number of rows after the user has cleared all blocks.</li>
 </ol>

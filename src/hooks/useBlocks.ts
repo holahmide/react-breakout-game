@@ -30,6 +30,7 @@ const useBlocks = (): UseBlocks => {
     );
     const rows = 3;
     const blocks: Block[] = [];
+
     [...Array(rows)].forEach((_, rowIndex) => {
       [...Array(columns)].forEach((_, columnIndex) => {
         const x = columnIndex * BLOCK_WIDTH;
