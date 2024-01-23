@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info {
+  &__score {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+}
